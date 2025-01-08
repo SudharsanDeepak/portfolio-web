@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="Portfolio.css">
+    <link rel="icon" href="MY ICON.jpg" type="image/x-icon">
+</head>
+<style>
+    body {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    color: azure;
+    margin: auto;
+
+    img{ box-shadow:5px 10px 20px rgb(184, 180, 180);}
+        background-image: url(NEW\ BG.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+}
+h2:hover {
+    color: rgb(255, 255, 255);
+}
+img {
+    box-shadow: 5px 10px 20px rgb(184, 180, 180);
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: right;
+}
+
+img {
+    height: 550px;
+    width: 500px;
+    border-radius: 25px;
+    align-self: left;
+    float: right;
+    margin: 50px;
+}
+
+h2.center {
+    text-align: center;
+}
+
+div{
+    background-color: whitesmoke; 
+    padding: 20px;
+    width: 67%;
+    border-radius: 20px; 
+    color: rgb(0, 0, 0);
+}
+
+#My-skills {
+    background-color: white;
+    padding: 20px;
+    width: 50%;
+    border-radius: 20px;
+    margin-right: 80px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+}
+
+#achievements {
+    background-color: white;
+    padding: 20px;
+    width: 50%;
+    border-radius: 20px;
+    margin: auto;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+div.content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    margin: auto;
+    color: rgb(0, 0, 0);
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: left;
+}
+
+p {
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: justify;
+}
+
+h2.left {
+    text-align: left;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+nav{
+    color: #aabccc;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 115%;
+    height: 40px;
+    background-color: whitesmoke;
+    box-shadow: 0 2px 5px rgba(197, 197, 197, 0.2);
+    padding: 10px;
+    
+    a {
+        color: #000;
+        border: 2px solid #000;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        padding: 5px;
+        margin-right: 250px;
+    }
+    
+    #abc:hover {
+        color: white;
+        background-color: black;
+    }
+}
+
+footer {
+    color: #aabccc;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+}
+
+footer img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    color: whitesmoke;
+    text-align: center;
+}
+
+li {
+    text-align: left;
+    font-size: 20px;
+}
+</style>
+<body style="text-align: center;font-family:sans-serif; background-color:black;color: rgb(0, 0, 0);">
+    <h1 style="text-align: center;margin-top: 10%;font-family: 'Times New Roman', Times, serif;color: black;">A Sincere and dedicated Person!...</h1>
+    <h2 style="text-align: right;font-family: 'Times New Roman', Times, serif;">By Sudharsan Deepak S.</h2>
+   
+    <h2 style="text-align: center;font-family: 'Times New Roman', Times, serif;">Something About Me!</h2>
+    <div style="margin-left: 15%;">
+    <p>A dedicated and ambitious individual passionate about technology and problem-solving, with a strong academic background and practical skills in Electronics and Communication Engineering (ECE).
+             Currently pursuing a Bachelor of Engineering at Sri Eshwar College of Engineering, I have consistently demonstrated my commitment to learning and applying knowledge in real-world scenarios. My journey is marked by my proficiency in coding, active participation in tech events, and a drive for innovation. 
+            I am eager to leverage my skills and experiences to contribute meaningfully to the tech industry and society at large.</p>            
+        
+    </div>
+    <img src="Designer.jpeg" alt="">
+    <h2 style="text-align: center;font-family: 'Times New Roman', Times, serif;">My Skills</h2>
+    <div id="My-skills" style="margin-left: 5%;margin-right: 5%; text-align: left;">
+        <div style="width: 80%; margin: 0 auto;">
+            <h3>Technical Skills</h3>
+            <table style="width: 100%;">
+                <tr>
+                    <td>Programming Languages</td>
+                    <td>Python, C, JavaScript, HTML, CSS</td>
+                </tr>
+                <tr>
+                    <td>Problem-Solving</td>
+                    <td>Efficiently identifies and resolves complex issues</td>
+                </tr>
+                <tr>
+                    <td>Competitive Coding</td>
+                    <td>LeetCode, HackerRank, and CodeChef</td>
+                </tr>
+            </table>
+        </div><br><br>
+        <div style="width: 80%; margin: 0 auto;">
+            <h3>Soft Skills</h3>
+            <table style="width: 100%;">
+                <tr>
+                    <td>Teamwork</td>
+                    <td>Collaborates effectively in dynamic team environments to achieve shared goals</td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 10px;">Communication</td>
+                    <td>Clear and concise verbal and written communication skills for technical and non-technical audiences</td>
+                </tr>
+                <tr>
+                    <td>Leadership</td>
+                    <td>Takes initiative in managing tasks, motivating teams, and driving project success</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    </ul></div><br><br>
+    <h2 style="text-align: center;font-family: 'Times New Roman', Times, serif;margin-left: 20%;">My Achievements</h2>
+    <div id="achievements" style="margin-left: 20%;margin-bottom: 8%;">
+        <li style="text-align: justify;size: 30px;font-family: 'Times New Roman', Times, serif;">1st Place in Code Fiesta (2024) for my Bank Management System project.</li>
+        <li style="text-align: justify;size: 30px;font-family: 'Times New Roman', Times, serif;">3rd Place in Freshathon Project Expo for designing a gas detection system.</li>
+        <li style="text-align: justify;size: 30px;font-family: 'Times New Roman', Times, serif;">Finalist in a Hackathon at PSG College of Technology (2024).</li>
+    </div>
+        
+       <nav style="background-color: rgb(138, 208, 229);">
+              <ul>
+                <a id="abc" href="#My-skills" style="text-decoration: none;" >My Skills</a>
+                <a id="abc" href="#achievements" style="text-decoration: none;">My Achievements</a>
+                <a id="abc" href="Certificates.html" style="text-decoration: none;">My Certificates</a>
+                <a id="abc" href="personal.html" style="text-decoration: none;">Hire Me</a>
+              </ul>
+       </nav>
+    <footer style="background-color: rgb(129, 182, 222);">
+        <a href="https://www.linkedin.com/in/sudharsan-deepak-s"><img src="Linkedin Logo.jpeg" alt=""></a>
+        <a href="https://www.instagram.com/_.itz._me_deepak_"><img src="Insta logo.jpeg" alt=""></a>
+        <a href="https://mail.google.com/mail/sudharsandeepak12@gmail.com"><img src="Mail img.jpg" alt=""></a>
+        <a href="https://leetcode.com/u/SudharsanDeepak/"><img src="leetcode img.png" alt=""></a>
+    </footer>
+</html>
