@@ -1,0 +1,455 @@
+body {
+    background-color: #CB9DF0;
+    background: linear-gradient(45deg, #CB9DF0,#F0C1E1,#FDDBBB,#FFF9BF, #CB9DF0,#F0C1E1,#FDDBBB,#FFF9BF, #CB9DF0,#F0C1E1,#FDDBBB,#FFF9BF, #CB9DF0,#F0C1E1,#FDDBBB,#FFF9BF, #CB9DF0,#F0C1E1,#FDDBBB,#FFF9BF, #CB9DF0,#F0C1E1,#FDDBBB,#FFF9BF, #CB9DF0,#F0C1E1,#FDDBBB,#FFF9BF, #CB9DF0,#F0C1E1,#FDDBBB,#FFF9BF, #CB9DF0,#F0C1E1,#FDDBBB,#FFF9BF, #CB9DF0,#F0C1E1,#FDDBBB,#FFF9BF, #CB9DF0,#F0C1E1,#FDDBBB,#FFF9BF, #CB9DF0,#F0C1E1,#FDDBBB,#FFF9BF, #CB9DF0,#F0C1E1,#FDDBBB,#FFF9BF, #CB9DF0,#F0C1E1,#FDDBBB,#FFF9BF, #CB9DF0,#F0C1E1,#FDDBBB,#FFF9BF, #CB9DF0,#F0C1E1,#FDDBBB,#FFF9BF, #CB9DF0,#F0C1E1,#FDDBBB,#FFF9BF, #CB9DF0,#F0C1E1,#FDDBBB,#FFF9BF, #CB9DF0,#F0C1E1,#FDDBBB,#FFF9BF, #CB9DF0,#F0C1E1,#FDDBBB,#FFF9BF);
+    background-size: 400% 400%;
+    animation: backgroundAnimation 25s ease-in-out infinite;
+}
+
+@keyframes backgroundAnimation {
+    0% {
+        background-position: 0% 0%;
+    }
+    25% {
+        background-position: 50% 25%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    75% {
+        background-position: 50% 75%;
+    }
+    100% {
+        background-position: 0% 100%;
+    }
+}
+
+#profile, #about, #skills, #achievements {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(8px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+#navi{
+    background-color: #F0C1E1;
+    position:fixed;
+    width: 100%;
+    padding: 1rem;
+}
+
+#navi.a{
+    font-weight: bold;
+}
+
+a:hover{
+    border-bottom: 3px solid #080808;
+}
+
+a{
+    color: #080808;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-size: 1.5rem;
+}
+*{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#head{
+    padding-top: 4%;
+    font-size: 60px;
+    text-align: right;
+}
+
+#profile{
+    background-color: #FDDBBB;
+    padding-top: 10%;
+    height: 100%;
+    color: #080808;
+    padding-bottom: 0%;
+    padding-top: 1%;
+
+}
+
+#hd{
+    margin-top: 12%;
+    font-size: 75px;
+    margin-left: 3%;
+}
+#ab{
+    margin-top: 0%;
+    font-size: 65px;
+    margin-left: 8%;
+}
+#my{
+    float: right;
+    width: 30%;
+    border-radius: 50%;
+    margin-top: 2%;
+    margin-right: 8%;
+    box-shadow: 10px 10px 100px 30px #FDDBBB;
+
+}
+
+#about{
+    margin-left: 5%;
+    margin-right: 5%;
+    width:90%;
+    background-color: #FDDBBB;
+    margin-top: 15%;
+    padding: 1%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+#sub{
+    font-size: 40px;
+    color: #080808;
+}
+
+#para{
+    font-size: 28px;
+    text-align: justify;
+    color: #080808;
+}
+#my2{
+    margin-left: 5%;
+    margin-top: 10%;
+    float: left;
+    width: 30%;
+    border-radius: 50%;
+    margin-top: 2%;
+    margin-right: 8%;
+    box-shadow: 10px 10px 100px 30px #FDDBBB;
+}
+
+#skills{
+    margin-left: 5%;
+    margin-right: 5%;
+    width:90%;
+    background-color: #FDDBBB;
+    margin-top: 15%;
+    padding: 1%;
+    border-radius: 15px;
+}
+
+li{
+    margin-left: 5%;
+    font-size: 28px;
+    color: #080808;
+}
+
+#sub2{
+    margin-left: 5%;
+    font-size: 34px;
+    color: #080808;
+}
+
+#sub1{
+    font-size: 34px;
+    color: #080808;
+}
+
+#tech{
+    margin-left: 5%;
+    border-radius: 20px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+}
+
+#smenu{
+    margin-left: 10%;
+}
+
+#mini1{
+    background-color: #F0C1E1;
+    height: 30%;
+    width: 20%;
+    margin-bottom: 2%;
+    display: flex;
+    padding: 1%;
+    border-radius: 15px;
+}
+
+#somenu{
+    margin-left: 15%;
+}
+
+#mini2{
+    background-color: #F0C1E1;
+    height: 60%;
+    width: 130%;
+    margin-bottom: 2%;
+    display: flex;
+
+    border-radius: 15px;
+}
+
+#soft{
+    float:inline-end;
+    margin-top: 5%;
+    margin-right: 15%;
+}
+
+#prg
+{   
+    float:right;
+    margin-top: 5%;
+    border-radius: 15%;
+    margin-right: 3%;
+    margin-bottom: 20%;
+    width:30%;
+    box-shadow: 10px 10px 100px 30px #d4d2d2;
+}
+
+#achievements{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5%;
+    margin-right: 5%;
+    width:90%;
+    height: 400px;
+    background-color: #FDDBBB;
+    padding: 1%;
+    border-radius: 15px;
+    margin-bottom: 10%;
+}
+
+#achievements img{
+    width: 100%;
+    max-width: 500px;
+    height: 100%;
+    border-radius: 15px;
+    float: left;
+    box-shadow: 10px 10px 100px 30px #FDDBBB;
+
+}
+
+#achievements ul{
+    flex: 1;
+}
+
+#achievements li{
+    padding: 10px;
+    margin-right: 10%;
+}
+
+#ach{
+    font-size: 38px;
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+    list-style-type: none;
+
+}
+
+#achmenu{
+    margin-left: 0%;
+    text-align: justify;
+}
+
+footer{
+    background-color: #F0C1E1;
+    display: flex;
+    left: 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 75px;
+    justify-content: center;
+
+}
+
+#foot{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-top: 20%;
+}
+
+#my, #my2, #prg, #achievements img, #foot {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#my:hover, #my2:hover, #prg:hover, #achievements img:hover {
+    transform: scale(1.1);
+    box-shadow: 20px 20px 50px 20px rgba(0, 0, 0, 0.2);
+}
+
+#foot,#my, #my2, #prg, #achievements img:hover {
+    transform: rotate(360deg);
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+#achievements img {
+    opacity: 0.8;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+#achievements img:hover {
+    opacity: 1;
+    transform: scale(1.05);
+}
+
+a {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+a:hover {
+    background-color: #d4d4d4;
+    color: #000;
+}
+
+@media (max-width: 768px) {
+    #navi {
+        display: flex;
+        position: fixed;
+        flex-direction: row;
+        padding: 1rem;
+        align-items: center;
+    }
+
+    #navi a {
+        font-size: 1.2rem;
+        margin: 0.5rem 0;
+    }
+
+    #head {
+        font-size: 40px;
+        text-align: center;
+        padding-top: 8%;
+    }
+
+    #profile {
+        padding-top: 2%;
+        padding-bottom: 5%;
+    }
+
+    #hd {
+        font-size: 50px;
+        text-align: center;
+        margin-left: 0;
+        margin-top: 5%;
+    }
+
+    #ab {
+        font-size: 40px;
+        text-align: center;
+        margin-left: 0;
+        margin-top: 2%;
+    }
+
+    #my {
+        width: 70%;
+        margin-top: 5%;
+        margin-right: 0;
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #about, #skills, #achievements {
+        margin: 10% 5%;
+        padding: 5%;
+        width: 100%;
+        box-shadow: none;
+    }
+
+    #about, #skills {
+        text-align: center;
+    }
+
+    #my2 {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5%;
+        float: none;
+        display: block;
+    }
+
+    #para {
+        font-size: 22px;
+    }
+
+    #sub {
+        font-size: 30px;
+    }
+
+    #prg {
+        width: 80%;
+        margin-top: 10%;
+        margin-right: auto;
+        margin-left: auto;
+        float: none;
+    }
+
+    #tech {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    #mini1 {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 5%;
+    }
+
+    #mini2 {
+        width: 100%;
+        padding: 5%;
+    }
+
+    #somenu, #smenu {
+        margin-left: 0;
+        text-align: left;
+    }
+
+    #soft {
+        margin: 10% auto;
+    }
+
+    #achievements {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        margin-bottom: 10%;
+    }
+
+    #achievements img {
+        width: 90%;
+        max-width: 400px;
+        height: auto;
+        margin: 10% 0;
+    }
+
+    #achievements ul {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+
+    #ach {
+        font-size: 30px;
+    }
+
+    #achmenu {
+        margin-left: 0;
+    }
+
+    footer {
+        position: fixed;
+        flex-direction: row;
+        height: auto;
+        padding: 1rem;
+
+    }
+
+    #foot {
+        margin-top: 1rem;
+    }
+}
