@@ -250,6 +250,26 @@ li{
     text-align: justify;
 }
 
+#projects{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5%;
+    margin-right: 5%;
+    width:90%;
+    height: 400px;
+    background-color: #FDDBBB;
+    padding: 1%;
+    border-radius: 15px;
+    margin-bottom: 10%;
+}
+
+#projmenu{
+    margin: 0;
+    margin-top: 5%;
+    text-align: left;
+    width: 40%;
+}
+
 footer{
     background-color: #F0C1E1;
     display: flex;
