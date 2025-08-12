@@ -3,102 +3,324 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="icon" href="MY ICON.jpg" type="image/x-icon">
+    <title>Sudharsan Deepak S</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="index.css">
 </head>
-
 <body>
     <div id="navi">
-    <nav>
-        <a href="">Home</a>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#achievements">Achievements</a>
-        <a href="certificates.html" target="_blank">Certificate</a>
-        <a href="https://drive.google.com/file/d/1EcGXbIXz-KzWNc6pRevA9CZSIP4n2zCu/view?usp=drivesdk" target="_blank">My CV</a>
-        <a href="personal.html" target="_blank">Contact Me</a>
-    </nav>
-    <br>
-</div>
-    <h1 id="head">PORTFOLIO</h1>
-    <div id="profile">
-        <img id="my" src="MY IMAGE.jpg" alt="Sudharsan Deepak S">
-        <h1 id="hd">I'm <strong>Sudharsan Deepak S</strong></h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#achievements">Achievements</a>
+            <a href="#contact">Contact</a>
+            <a href="https://drive.google.com/file/d/1oxkRmAK86_X8QVD7oQ5b1atRphj993Sb/view?usp=sharing" target="_blank">My CV</a>
+        </nav>
     </div>
-    <p id="ab"><strong>Software Developer</strong></p>
 
-    <div id="about">
-        <img id="my2" src="MY IMAGE 2.jpg" alt="My Image">
-        <h2 id="sub">About Me</h2><br>
-        <p id="para">A sincere individual, always willing to participate in all events, dedicated to work, utilizing all my skills, and eager to contribute as a team player.
-            I am highly motivated, adaptable to new challenges, and committed to achieving excellence in every task. My strong communication skills and proactive approach make me a valuable asset to any team.</p>
-    </div><br><br><br><br>
+    <div class="container">
+        <!-- Home Section -->
+        <section id="home" class="section">
+            <div id="profile">
+                <img src="./MY IMAGE.jpg" alt="Sudharsan Deepak S">
+                <h1>Sudharsan Deepak S</h1>
+                <p>Software Developer & Full Stack Engineer</p>
+                <div class="social-icons">
+                    <a href="mailto:sudharsandeepak12@gmail.com"><i class="fas fa-envelope"></i></a>
+                    <a href="https://github.com/SudharsanDeepak" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/sudharsan-deepak-s" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://leetcode.com/u/SudharsanDeepak/" target="_blank"><i class="fas fa-code"></i></a>
+                </div>
+            </div>
+        </section>
 
-    <div id="skills">
+        <!-- About Section -->
+        <section id="about" class="section">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-img">
+                    <img src="./My Img 4.jpg" alt="About Image">
+                </div>
+                <div class="about-text" style="text-align: justify;">
+           <p>He was a software developer pursuing a B.E. in Electronics and Communication Engineering, skilled in MERN stack, Java, and Python, enjoying teamwork and problem-solving, with projects like AI tools and billing systems, and that he joined hackathons to keep improving.</p>
+                    
+                    <div class="info-grid">
+                        <div class="info-card">
+                            <h3><i class="fas fa-phone"></i> Phone</h3>
+                            <p>+91 9715394357</p>
+                        </div>
+                        <div class="info-card">
+                            <h3><i class="fas fa-envelope"></i> Email</h3>
+                            <p>sudharsandeepak12@gmail.com</p>
+                        </div>
+                        <div class="info-card">
+                            <h3><i class="fas fa-map-marker-alt"></i> Location</h3>
+                            <p>Coimbatore, India</p>
+                        </div>
+                        <div class="info-card">
+                            <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+                            <p>B.E. ECE, Sri Eshwar College of Engineering</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section">
+            <h2 class="section-title">Education</h2>
+            <div class="info-grid">
+                <div class="info-card">
+                    <h3><i class="fas fa-university"></i> Sri Eshwar College of Engineering</h3>
+                    <p>B.E. Electronics and Communication Engineering</p>
+                    <p>2023-2027</p>
+                </div>
+                <div class="info-card">
+                    <h3><i class="fas fa-school"></i> Vighneswar Vidhya Mandhir</h3>
+                    <p>Higher Secondary Education</p>
+                    <p>2021-2023</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">C</div>
+                        <div class="skill-item">C++</div>
+                        <div class="skill-item">Python</div>
+                        <div class="skill-item">Java</div>
+                        <div class="skill-item">JavaScript</div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Web Technologies</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">HTML</div>
+                        <div class="skill-item">CSS</div>
+                        <div class="skill-item">React</div>
+                        <div class="skill-item">Node.js</div>
+                        <div class="skill-item">Express.js</div>
+                        <div class="skill-item">Springboot</div>
+                        <div class="skill-item">Docker</div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Databases</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">MySQL</div>
+                        <div class="skill-item">MongoDB</div>
+                        <div class="skill-item">PostgreSQL</div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Core Concepts</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">DSA</div>
+                        <div class="skill-item">OOPs</div>
+                        <div class="skill-item">REST API</div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Tools & Platforms</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">Git</div>
+                        <div class="skill-item">GitHub</div>
+                        <div class="skill-item">VS Code</div>
+                        <div class="skill-item">Postman</div>
+                        <div class="skill-item">Eclipse</div>
+                        <div class="skill-item">IntelliJ</div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Soft Skills</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">Communication</div>
+                        <div class="skill-item">Teamwork</div>
+                        <div class="skill-item">Leadership</div>
+                        <div class="skill-item">Problem Solving</div>
+                        <div class="skill-item">Time Management</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+    <h2 class="section-title">Projects</h2>
+    <div class="projects-grid">
         
-        
-        <img id="prg" src="PROGRAMMING LANG IMG.jpg" alt="Languages">
+        <div class="project-card">
+            <div class="project-img">
+                <img src="./GenZolver.png" alt="GENZOLVER Project">
+            </div>
+            <div class="project-content">
+                <h3>GENZOLVER</h3>
+                <p>An AI-powered automated debugging system that detects coding errors, recommends optimized fixes, and implements solutions in real time.</p>
+                <div class="tech-stack">
+                    <div class="tech-item">Python</div>
+                    <div class="tech-item">AI</div>
+                    <div class="tech-item">API</div>
+                    <div class="tech-item">Selenium</div>
+                </div>
+                <a href="https://github.com/SudharsanDeepak" class="btn" target="_blank">View on GitHub</a>
+            </div>
+        </div>
 
-        <div id="soft">
-            <h3 id="sub2">Soft Skills</h3><br>
-            <div id="mini2">
-            <ul id="somenu">
-            <li>Communication</li>
-            <li>Teamwork</li>
-            <li>Leadership</li>
-            </ul>
+        <div class="project-card">
+            <div class="project-img">
+                <img src="InvoBilled.png" alt="INVOBILLED Project">
+            </div>
+            <div class="project-content">
+                <h3>INVOBILLED</h3>
+                <p>A comprehensive billing and invoice management system with Spring Boot backend and React frontend.</p>
+                <div class="tech-stack">
+                    <div class="tech-item">Springboot</div>
+                    <div class="tech-item">React</div>
+                    <div class="tech-item">Docker</div>
+                    <div class="tech-item">PostgreSQL</div>
+                </div>
+                <a href="https://github.com/SudharsanDeepak" class="btn" target="_blank">View on GitHub</a>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-img">
+                <img src="./HazGuard.png" alt="HUZGUARD WEB Project">
+            </div>
+            <div class="project-content">
+                <h3>HUZGUARD WEB</h3>
+                <p>Web-based interface for real-time monitoring of methane and ammonia levels with automatic sensor calibration and alerts.</p>
+                <div class="tech-stack">
+                    <div class="tech-item">C++</div>
+                    <div class="tech-item">HTML</div>
+                    <div class="tech-item">CSS3</div>
+                    <div class="tech-item">JavaScript</div>
+                </div>
+                <a href="https://github.com/SudharsanDeepak" class="btn" target="_blank">View on GitHub</a>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-img">
+                <img src="./Banking.png" alt="BANKING WEB Project">
+            </div>
+            <div class="project-content">
+                <h3>BANKING WEB</h3>
+                <p>A small management program for banks implementing core programming concepts without a database.</p>
+                <div class="tech-stack">
+                    <div class="tech-item">C Programming</div>
+                </div>
+                <a href="https://github.com/SudharsanDeepak" class="btn" target="_blank">View on GitHub</a>
+            </div>
         </div>
 
     </div>
-        <h2 id="sub">Skills</h2><br>
-        <div id="tech">
+    
+</section>
 
-            <h3 id="sub1">Technical Skills</h3><br>
-           <div id="mini1">
-            <ul id="smenu">
-            <li>C</li>
-            <li>C++</li>
-            <li>Java</li>
-            <li>Python</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>SQL</li>
-            </ul>
-
-           </div>
-          
+<section>
+       <!-- Achievements Section -->
+<section id="achievements" class="section">
+    <h2 class="section-title">Achievements</h2>
+    <div class="achievements-grid">
+        <div class="achievement-card">
+            <h3><i class="fas fa-trophy"></i> Winner of Code Fiesta</h3>
+            <p>Won 1st place for my Bank Management System project.</p>
+        </div>
+        <div class="achievement-card">
+            <h3><i class="fas fa-medal"></i> Runner up in Freshathon Project Expo</h3>
+            <p>Secured 3rd place for designing a gas detection system.</p>
+        </div>
+        <div class="achievement-card">
+            <h3><i class="fas fa-briefcase"></i> Internship</h3>
+            <p>MERN Stack - Better Tomorrow</p>
+            <p>Gained hands-on experience building full-stack applications using React and MongoDB.</p>
         </div>
     </div>
 
-    <div id="achievements">
-        <ul id="achmenu">
-            <li id="ach">Achivements</li>
-            <li>1st Place in Code Fiesta (2024) for my Bank Management System project.</li>
-            <li>3rd Place in Freshathon Project Expo for designing a gas detection system.</li>
-            <li>Finalist in a Hackathon at PSG College of Technology (2024).</li>
-        </ul>
-        <img src="certificate 1.jpeg" alt="certificate" id="cert">
+    <!-- Certificates Carousel -->
+    <div class="certificates-section">
+        <div class="train-header">
+            <h2>My Certificates</h2>
+        </div>
+        <div class="certificates-train-container">
+            <div class="certificates-train">
+                <div class="certificate-item"><img src="./certificate 1.jpeg" alt="Certificate 1"></div>
+                <div class="certificate-item"><img src="./certificate 2.jpeg" alt="Certificate 2"></div>
+                <div class="certificate-item"><img src="./certificate 3.jpeg" alt="Certificate 3"></div>
+                <div class="certificate-item"><img src="./certificate 5.jpeg" alt="Certificate 5"></div>
+                <div class="certificate-item"><img src="./certificate 6.jpg" alt="Certificate 6"></div>
+                <div class="certificate-item"><img src="./certificate 7.jpg" alt="Certificate 7"></div>
+                <div class="certificate-item"><img src="./certificate 8.jpg" alt="Certificate 8"></div>
+                <div class="certificate-item"><img src="./certificate 9.jpg" alt="Certificate 9"></div>
+                <div class="certificate-item"><img src="./certificate 10.jpg" alt="Certificate 10"></div>
+                <div class="certificate-item"><img src="./certificate 12.jpg" alt="Certificate 12"></div>
+                <!-- Duplicate for loop -->
+                <div class="certificate-item"><img src="./certificate 1.jpeg" alt="Certificate 1"></div>
+                <div class="certificate-item"><img src="./certificate 2.jpeg" alt="Certificate 2"></div>
+                <div class="certificate-item"><img src="./certificate 3.jpeg" alt="Certificate 3"></div>
+                <div class="certificate-item"><img src="./certificate 5.jpeg" alt="Certificate 5"></div>
+                <div class="certificate-item"><img src="./certificate 6.jpg" alt="Certificate 6"></div>
+                <div class="certificate-item"><img src="./certificate 7.jpg" alt="Certificate 7"></div>
+                <div class="certificate-item"><img src="./certificate 8.jpg" alt="Certificate 8"></div>
+                <div class="certificate-item"><img src="./certificate 9.jpg" alt="Certificate 9"></div>
+                <div class="certificate-item"><img src="./certificate 10.jpg" alt="Certificate 10"></div>
+                <div class="certificate-item"><img src="./certificate 12.jpg" alt="Certificate 12"></div>
+            </div>
+        </div>
     </div>
+</section>
 
-    <div id="projects">
-        <h2 id="sub">Projects</h2><br><br>
-        <ul id="projmenu">
-            <li>Bank Management System</li>
-            <li>Gas Detection System</li>
-            <li>Library Management System</li>
-            <li>Student Management System</li>
-        </ul>
-
+<!-- Contact Section -->
+<section id="contact" class="section">
+    <h2 class="section-title">Contact Me</h2>
+    <div style="text-align: center; padding: 2rem;">
+        <p style="font-size: 1.2rem; margin-bottom: 2rem;">Feel free to reach out for collaborations or just to say hello!</p>
+       <a href="https://mail.google.com/mail/?view=cm&fs=1&to=sudharsandeepak12@gmail.com" target="_blank" class="btn">
+    <i class="fas fa-envelope"></i> Send Email
+    </a>
     </div>
-        
-<footer>
-    <a href="https://www.linkedin.com/in/sudharsan-deepak-s" target="_blank"><img id="foot" src="Linkedin Logo.jpeg" alt=""></a>
-    <a href="https://www.instagram.com/_.itz._me_deepak_" target="_blank"><img id="foot" src="Insta logo.jpeg" alt=""></a>
-    <a href="mailto:sudharsandeepak12@gmail.com" target="_blank"><img id="foot" src="Mail img.jpg" alt=""></a>
-    <a href="https://leetcode.com/u/SudharsanDeepak/" target="_blank"><img id="foot" src="leetcode img.png" alt=""></a>
-</footer>
+</section>
 
+    <footer>
+        <p style="text-align: center;">&copy; 2025 Sudharsan Deepak S. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Animation on scroll
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('show');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('.section').forEach(section => {
+            observer.observe(section);
+        });
+    </script>
 </body>
 </html>
